@@ -1,0 +1,97 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.content{
+ padding-left: 70px;
+}
+.body-content img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+@keyframes example {
+    from {opacity: 1;}
+    to {opacity: 0.6;}
+  }
+.content h1 {
+    position: absolute;
+    top: 80px;
+    font-size: 60px;
+    animation-name: example;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.content h1,p,a,h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color: white;
+    z-index: 2;
+}
+
+.content p{
+    position: absolute;
+    top: 270px;
+    font-size: 20px;
+}
+.content a{
+    position: absolute;
+    top: 400px;
+    font-size: 20px;
+    color: #06737C;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 54px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.content a:hover{
+    opacity: 1;
+  
+}
+.contentlogo{
+  text-align:center;
+  padding-top:60px;
+}
+
+.logo{
+  float:left;
+  width: 25%;
+  position: relative;
+}
+.contentlogo h2{
+    padding-bottom: 60px;
+}
+.logo img{
+    height: 100px;
+}
+.body-content h2{
+    text-align: center;
+    color: #06737C;
+}
+#haccp {
+    width: 100px;
+}
+#iso{
+    width: 250px;
+}
+#sfi {
+    width: 200px;
+}
+#sni{
+    width: 100px;
+}
+#vector{
+    width: 70%;
+    padding:60px 0;
+}
