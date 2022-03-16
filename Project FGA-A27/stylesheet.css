@@ -1,0 +1,361 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0 auto;
+  padding: 0;
+}
+/* Header */
+li {
+    list-style: none;
+    float: right;
+    padding: 20px 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .header {
+    background-color: #fff;
+    color: #06737C;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 20px;
+    padding: 20px 0 20px 70px;
+    font-weight: bold;
+  }
+
+/* Main */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.content{
+ padding-left: 70px;
+ background-image: url("img/body.png");
+ background-size: cover;
+ height: 500px;
+}
+.body-content img{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+@keyframes example {
+    from {opacity: 1;}
+    to {opacity: 0.6;}
+  }
+.content h1 {
+    position: absolute;
+    top: 80px;
+    font-size: 60px;
+    animation-name: example;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.content h1,p,a,h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    color: white;
+    z-index: 2;
+}
+
+.content p{
+    position: absolute;
+    top: 270px;
+    font-size: 20px;
+}
+.content a{
+    position: absolute;
+    top: 400px;
+    font-size: 20px;
+    color: #06737C;
+    background-color: white;
+    padding: 7px 15px;
+    border-radius: 54px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.bounce2 {
+    animation: bounce2 2s ease infinite;
+  }
+  @keyframes bounce2 {
+    0%, 20%, 50%, 80%, 100% {transform: translateX(0);}
+    40% {transform: translateX(10px);}
+    60% {transform: translateX(5px);}
+  }
+.content a:hover{
+    opacity: 1;
+  
+}
+.contentlogo{
+  text-align:center;
+  padding-top:60px;
+}
+
+.logo{
+  float:left;
+  width: 25%;
+  position: relative;
+}
+.contentlogo h2{
+    padding-bottom: 60px;
+}
+.logo img{
+    height: 100px;
+}
+.body-content h2{
+    text-align: center;
+    color: #06737C;
+}
+#haccp {
+    width: 100px;
+}
+#iso{
+    width: 250px;
+}
+#sfi {
+    width: 200px;
+}
+#sni{
+    width: 100px;
+}
+#vector{
+    width: 70%;
+    padding:60px 0;
+}
+/* body */
+.section-aboutus {
+    background-color:#F5F9FE;
+    height: 400px;
+    padding-top: 60px;
+}
+
+.isi-aboutus-right {
+    float:right;
+}
+
+.isi-aboutus-left {
+    float:left;
+    margin: 100px;
+}
+
+
+.isi-aboutus-left h3 {
+    font-family: 'Roboto';
+    color:#06737C;
+}
+
+.isi-aboutus-left h1 {
+    font-family: 'Roboto';
+    color:#484B4B;
+}
+
+.isi-aboutus-right img {
+    width:60%;
+}
+
+/*INI BAGIAN OUR PRODUCTS*/
+.section-our-products {
+    background-color:#F5F9FE;
+    height: 600px;
+    padding: 100px;
+}
+
+.section-our-products h3 {
+    font-family: 'Roboto';
+    color:#06737C;
+    font-size: 30px;
+    padding:30px 0;
+}
+.logo2{
+    float:left;
+    width: 25%;
+    position: relative;
+  }
+.vintage-chair {
+  width: 250px;
+  height: 400px;
+  margin:15px 0;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color:#E6E6E6;
+  border-radius: 30px;
+  display:inline-block;
+  box-shadow: 2px 5px 10px grey;
+}
+
+.vintage-chair img {
+    width:100%;
+}
+    
+.vintage-chair button {
+  padding: 12px;
+  color: white;
+  background-color: #06737C;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 50px;
+  border: none;
+  opacity: 1;
+}
+.vintage-chair button:hover{
+    opacity: 0.8;
+  
+}
+/* footer */
+
+.footer-distributed{
+  background-color: #04555C;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.footer-distributed .footer-left{
+  width: 30%;
+}
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+
+.footer-distributed .footer-left img{
+  width: 30%;
+}
+
+.footer-distributed h3 span{
+  color:  #e0ac1c;
+}
+
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  #e0ac1c;
+  text-decoration: none;;
+}
+
+
+.footer-distributed .footer-right{
+  width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #fff;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-icons img{
+    width: 50%;
+}
+
+

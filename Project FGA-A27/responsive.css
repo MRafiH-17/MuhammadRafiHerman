@@ -1,0 +1,121 @@
+@media all and (max-width: 1100px) {   
+    /* Header */
+    li {
+    float: left;
+    text-align: center;
+    }
+    /* main */
+    .content h1 {
+        top: 150px;
+        font-size: 30px;
+    }
+    .content a{
+        top: 350px;
+        font-size: 10px;
+    }
+    .content p{
+        top: 250px;
+        font-size: 15px;
+    }
+    .logo{
+        width: 50%;
+        padding-bottom: 40px;
+      }
+      #vector{
+        width: 70%;
+        padding:20px 0 60px 0;
+    }
+    /* body */
+    .section-aboutus{
+        height: 700px;
+        padding-top: 20px;
+        text-align: center;
+        width: 75%;
+    }
+    .isi-aboutus-right {
+        float:none;
+    }
+    
+    .isi-aboutus-left {
+        float:none;
+    }
+    .section{
+        width: 100%;
+        background-color:#F5F9FE;
+        height: 1800px;
+    }
+    .logo2{
+        width: 50%;
+      }
+      /* footer */
+ 
+}
+@media all and (max-width: 670px) {
+     /* Header */
+     li {
+        float: left;
+        text-align: center;
+        font-size: 15px;
+        padding:20px 7px;
+        }
+    .header-logo {
+        font-size: 15px;
+          }
+    /* main */
+    .content h1 {
+        top: 180px;
+        font-size: 20px;
+    }
+    .content a{
+        top: 300px;
+        font-size: 5px;
+    }
+    .content p{
+        top: 250px;
+        font-size: 10px;
+    }
+    .logo{
+        width: 100%;
+        padding-bottom: 60px;
+      }
+      #vector{
+        width: 70%;
+        padding:0 0 60px 0;
+    }
+    .contentlogo h2{
+        font-size: 18px;
+    }
+     /* body */
+     .section-aboutus{
+        height: 700px;
+        padding-top: 20px;
+        text-align: center;
+        width: 75%;
+    }
+    .isi-aboutus-right {
+        float:none;
+    }
+    
+    .isi-aboutus-left {
+        float:none;
+    }
+    .section{
+        width: 100%;
+        background-color:#F5F9FE;
+        height: 2700px;
+    }
+    .logo2{
+        width: 100%;
+        float: none;
+      }
+      /* footer */
+      .footer-distributed .footer-right{
+       display: none;
+      }
+      .footer-distributed .footer-center{
+        display: none;
+       }
+       .footer-distributed .footer-left{
+        width: 100%;
+       }
+}
